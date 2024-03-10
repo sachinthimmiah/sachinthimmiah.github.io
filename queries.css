@@ -1,0 +1,132 @@
+@media screen and (max-width:1400px){
+    #profile{
+         height: 83vh;
+         margin-bottom: 6rem;
+    }
+  .about-containers
+ {
+    flex-wrap: wrap;
+ }   
+}
+
+@media screen and (max-width:1200px){
+    #navbar-nav{
+        display: none;
+    }
+ #hamburger-nav
+ {
+    display: flex;
+ }   
+ #experience, .experience-details-container{
+    margin-top: 2rem;
+    
+
+ }
+ .experience-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+ }
+ #profile,.section-container{
+    display: block;
+ }
+ section,.section-container{
+    height: fit-content;
+ }
+ section{
+    margin: 0 5%;
+ }
+ .pic-container{
+    width: 275px;
+    width: 275px;
+    margin: 0 auto 2rem;
+    
+ }
+ 
+ .about-containers{
+    margin-top: 0;
+    justify-content: center;
+    margin-left: 2vh;
+    
+ }
+ #projects{
+    height: 158vh;
+ }
+ #about{
+    height:125vh;
+     
+ }
+ #about ,.text-container{
+text-align: center;
+margin-left: 2.8vh;
+
+
+ }
+ #experience{
+    height: 75vh;
+ }
+ 
+ 
+}
+@media screen and (max-width:600px){
+    #contact,footer{
+        height: 40vh;
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    footer nav{
+        height: fit-content;
+        /* margin-bottom: 2rem; */
+        display: flex;
+    }
+    .about-containers,.contact-container,.btn-container{
+        flex-wrap: wrap;
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p,.nav-links li a{
+        font-size: 1rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: row;
+        gap: 1rem;
+        text-align: center;
+        height: 2rem;
+        padding:1rem;
+    }
+    .pic-container
+    {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+
+
+    }
+    .section-p2{
+        font-size: 1.2rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+    footer{
+        height: 2vh;
+    }
+    
+    .contact-container{
+        color: black;
+        
+    }
+        
+        
+    }
+
